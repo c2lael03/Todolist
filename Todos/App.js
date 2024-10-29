@@ -69,7 +69,7 @@ export default function App() {
     
   return (    
     <SafeAreaView style={styles.container}>
-      <Text style={styles.header}>ShoppingList</Text>
+      <Text style={styles.header}>Todo List</Text>
       <Add add={data} setData={setData} />
       <FlatList
         data={items}
